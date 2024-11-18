@@ -1,0 +1,3950 @@
+:root {
+  --cadet-blue: #5da6bc;
+  --alice-blue: #e4edf2;
+  --yellow-green: #b8d165;
+  --light-coral: #ed6c70;
+  --medium-turquoise: #60c0bf;
+  --floral-white: #fffcf5;
+  --indian-red: #c94d5b;
+  --color: white;
+  --dim-grey: #536472;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section.hero {
+  background-color: var(--cadet-blue);
+  text-align: center;
+  background-image: url('../images/AURORA-fondo-hero-home.svg');
+  background-position: 50% 100%;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 207px;
+}
+
+.section.paraque {
+  background-image: url('../images/AURORA-fondo-paraque.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 82px;
+  padding-bottom: 178px;
+  position: relative;
+}
+
+.section.soyaurora {
+  background-color: var(--alice-blue);
+  background-image: url('../images/AURORA-estrellitas.svg'), url('../images/AURORA-fondo-soyaurora.svg');
+  background-position: 87%, 50% 101%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 90px, auto;
+  padding-top: 0;
+  padding-bottom: 123px;
+}
+
+.section.pasos {
+  background-image: url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 50% 101%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 0;
+  padding-bottom: 175px;
+}
+
+.section.llamado {
+  background-color: var(--cadet-blue);
+  background-image: url('../images/AURORA-nube.svg'), url('../images/AURORA-fondo-footer-verde.svg');
+  background-position: 109% 0, 50% 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 250px, auto;
+  padding-top: 45px;
+  padding-bottom: 244px;
+}
+
+.section.footer {
+  background-color: var(--yellow-green);
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.section.productos {
+  color: var(--cadet-blue);
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+.section.productos:hover {
+  transform: translate(0);
+}
+
+.section.ventajas {
+  display: none;
+}
+
+.section.programa {
+  background-color: var(--light-coral);
+  text-align: center;
+  background-image: url('../images/AURORA-fondo-programa.svg'), url('../images/AURORA-fondo-duendes.svg');
+  background-position: 50% 100%, 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  padding-top: 30px;
+  padding-bottom: 129px;
+}
+
+.section.programa.contagiando {
+  background-color: var(--yellow-green);
+  background-image: url('../images/AURORA-fondo-programa.svg'), url('../images/fondo-contgiando.svg');
+  background-position: 50% 100%, 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+}
+
+.section.programa.soy {
+  background-color: var(--cadet-blue);
+  background-image: url('../images/AURORA-fondo-programa.svg'), url('../images/fondo-soy.svg');
+  background-position: 50% 100%, 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+}
+
+.section.programa.somos1 {
+  background-color: var(--yellow-green);
+  background-image: url('../images/AURORA-fondo-programa.svg'), url('../images/fondo-somos.svg'), linear-gradient(#f0d450, #f0d450);
+  background-position: 50% 100%, 50%, 0 0;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: contain, cover, auto;
+}
+
+.section.programa.somos2 {
+  background-color: #536472;
+  background-image: url('../images/AURORA-fondo-programa.svg'), url('../images/fondo-somos2.svg');
+  background-position: 50% 100%, 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+}
+
+.section.metodologia {
+  padding-top: 0;
+  padding-bottom: 44px;
+}
+
+.section.equipo {
+  background-image: url('../images/AURORA-fondo-equipo.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 50px;
+  padding-bottom: 152px;
+}
+
+.section.referentes {
+  background-image: url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 50% 101%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 0;
+  padding-bottom: 175px;
+}
+
+.section.filosofia {
+  background-color: var(--alice-blue);
+  background-image: url('../images/AURORA-fondo-soyaurora.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 21px;
+  padding-bottom: 179px;
+}
+
+.section.detalles {
+  background-image: url('../images/AURORA-arcoiris.svg'), url('../images/AURORA-duenda.svg'), url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 94% 0, 100% 90%, 50% 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 200px, 250px, auto;
+  padding-top: 100px;
+  padding-bottom: 175px;
+}
+
+.section.detalles.contagiando {
+  background-image: url('../images/detalle-contagiando.svg'), url('../images/matias-linea.svg'), url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 94% 0, 100% 90%, 50% 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 120px, 250px, auto;
+}
+
+.section.detalles.soy {
+  background-image: url('../images/AURORA-estrellitas-2.svg'), url('../images/IE.svg'), url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 94% 0, 100% 90%, 50% 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 120px, 250px, auto;
+}
+
+.section.detalles.somos2 {
+  background-image: url('../images/AURORA-quebuscamos8.svg'), url('../images/AURORA-banderas3.svg'), url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 94% 2%, 100% 90%, 50% 100%;
+  background-size: 120px, 100px, auto;
+}
+
+.section.detalles.somos1 {
+  background-image: url('../images/foco.svg'), url('../images/AURORA-estrellitas.svg'), url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 94% 0, 100% 90%, 50% 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 120px, 100px, auto;
+}
+
+.section.hero-nosotros {
+  background-color: var(--medium-turquoise);
+  text-align: center;
+  background-image: url('../images/AURORA-nosotros-izquierda.png'), url('../images/AURORA-nosotros-derecha.png'), url('../images/AURORA-fondo-nosotros.svg'), url('../images/AURORA-fondo-nosotros-nubes.svg');
+  background-position: 6% 100%, 103% 100%, 50% 100%, 50%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, contain, auto;
+  min-height: 90vh;
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.section.contacto {
+  background-color: var(--cadet-blue);
+  text-align: center;
+  background-image: url('../images/AURORA-fondo-footer-verde.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 30px;
+  padding-bottom: 129px;
+}
+
+.section.metricas {
+  color: var(--cadet-blue);
+  padding-top: 0;
+  padding-bottom: 99px;
+}
+
+.section.metricas:hover {
+  transform: translate(0);
+}
+
+.section.gracias {
+  background-color: var(--cadet-blue);
+  text-align: center;
+  background-image: url('../images/AURORA-fondo-footer-verde.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 30px;
+  padding-bottom: 129px;
+}
+
+.section.hero-programas {
+  text-align: center;
+  background-color: #ed6c6f;
+  background-image: url('../images/AURORA-fondo-programas.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 175px;
+  display: block;
+}
+
+.section.equipo-copy {
+  background-image: url('../images/AURORA-fondo-equipo.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 152px;
+}
+
+.section.brochazo {
+  background-image: url('../images/AURORA-fondo-equipo.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 0;
+  padding-bottom: 152px;
+}
+
+.section.futuro {
+  background-color: var(--alice-blue);
+  background-image: url('../images/AURORA-fondo-soyaurora.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 35px;
+  padding-bottom: 113px;
+}
+
+.section.talleres {
+  background-color: var(--floral-white);
+  text-align: center;
+  background-image: url('../images/AURORA-fondo-footer-azul.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 30px;
+  padding-bottom: 129px;
+}
+
+.contenedor {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contenedor.paraque {
+  text-align: center;
+  max-width: 900px;
+  margin-bottom: 55px;
+}
+
+.contenedor.aurora {
+  max-width: 700px;
+}
+
+.contenedor.pasos {
+  text-align: center;
+  background-image: url('../images/AURORA-estrellita-verde.svg');
+  background-position: 66% 95%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-top: 45px;
+}
+
+.contenedor.llamado {
+  text-align: center;
+  position: relative;
+}
+
+.contenedor.footer {
+  border-bottom: 1px solid #8ba536;
+  padding-bottom: 67px;
+}
+
+.contenedor.productos {
+  text-align: left;
+}
+
+.contenedor.hero-nosotros {
+  text-align: center;
+  max-width: 700px;
+}
+
+.contenedor.metodologia {
+  text-align: left;
+  padding-bottom: 101px;
+}
+
+.contenedor.referentes {
+  background-image: url('../images/AURORA-estrellita-verde.svg');
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  max-width: 680px;
+  padding-top: 65px;
+}
+
+.contenedor.filosofia {
+  background-image: url('../images/AURORA-filosofia.svg');
+  background-position: 59%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.contenedor.hero-contacto {
+  text-align: center;
+  background-image: url('../images/AURORA-fondo-contacto.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: none;
+}
+
+.contenedor.metricas {
+  background-color: var(--cadet-blue);
+  text-align: left;
+  border-radius: 11px;
+  max-width: 800px;
+  padding: 35px;
+}
+
+.contenedor.metricos {
+  margin-top: 81px;
+  margin-bottom: 32px;
+}
+
+.contenedor.hero-gracias {
+  text-align: center;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  max-width: none;
+  margin-top: 166px;
+}
+
+.contenedor.banderas {
+  text-align: center;
+  background-image: url('../images/AURORA-estrellita-verde.svg');
+  background-position: 66% 95%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-top: 45px;
+}
+
+.contenedor.talleres {
+  text-align: center;
+  background-image: url('../images/foco.svg'), url('../images/IE.svg'), url('../images/AURORA-consideraciones.svg');
+  background-position: 13% 77%, 100%, 11% 0;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 150px, 250px, 100px;
+  max-width: none;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  align-items: center;
+  margin-bottom: 85px;
+  display: block;
+  position: static;
+}
+
+.navbar.sticky {
+  z-index: 999;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  background-color: var(--floral-white);
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: block;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  box-shadow: 1px 1px 20px 2px rgba(83, 100, 114, .1);
+}
+
+.image {
+  width: 200px;
+}
+
+.image.sticky {
+  display: block;
+}
+
+.nav-link {
+  color: #fff;
+  margin-top: 9px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.nav-link.w--current {
+  color: #fff;
+}
+
+.nav-link.highlight {
+  background-color: var(--indian-red);
+  border-radius: 20px;
+  margin-left: 13px;
+  margin-right: 20px;
+}
+
+.nav-link.highlight.demo {
+  background-color: #b8344b;
+  border-radius: 9px;
+}
+
+.nav-link.highlight.demo.primero {
+  margin-right: 20px;
+}
+
+.nav-link.sticky {
+  color: var(--cadet-blue);
+  margin-right: 10px;
+  padding-right: 20px;
+}
+
+.nav-link.sticky.dark {
+  color: var(--dim-grey);
+}
+
+.nav-link.primero {
+  color: #fff;
+  margin-right: 10px;
+  padding-right: 20px;
+}
+
+.nav-link.primero.sticky {
+  color: var(--cadet-blue);
+  margin-right: 10px;
+  padding-right: 20px;
+}
+
+.nav-link.primero.sticky.w--current {
+  color: var(--cadet-blue);
+}
+
+.nav-link.primero.dark {
+  color: var(--dim-grey);
+}
+
+.nav-link.plataforma {
+  background-color: var(--cadet-blue);
+  outline-offset: 0px;
+  color: #fff;
+  border: 0 #000;
+  border-radius: 20px;
+  outline: 1px #5da6bc;
+  margin-left: 13px;
+  margin-right: 0;
+}
+
+.nav-link.plataforma.hollow {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+}
+
+.nav-link.plataforma.hollow.dark {
+  border-color: var(--dim-grey);
+  color: var(--dim-grey);
+}
+
+.nav-link.azul.dark {
+  color: var(--dim-grey);
+}
+
+.div50 {
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.div50.referentes {
+  text-align: left;
+}
+
+.div50.programa {
+  text-align: left;
+  padding-right: 12px;
+}
+
+.div50.programa.dark {
+  color: var(--dim-grey);
+}
+
+.div50.programa.proximamente {
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.heading {
+  color: #fff;
+  text-align: left;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 51px;
+}
+
+.heading.cta {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading.hero-nosotros {
+  text-align: center;
+  font-size: 44px;
+  line-height: 49px;
+}
+
+.heading.hero-programa {
+  text-align: left;
+  font-size: 56px;
+  line-height: 49px;
+}
+
+.heading.hero-programa.dark {
+  color: var(--dim-grey);
+  font-size: 54px;
+}
+
+.heading.home {
+  margin-right: 67px;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.heading.hero-programas {
+  color: var(--dim-grey);
+  text-align: center;
+  font-size: 44px;
+  line-height: 49px;
+}
+
+.heading.hero-talleres {
+  color: var(--dim-grey);
+  text-align: center;
+  max-width: 900px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 44px;
+  line-height: 49px;
+}
+
+.heading.taller {
+  color: var(--cadet-blue);
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 900px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 49px;
+}
+
+.parrafo {
+  color: #fff;
+  text-align: left;
+  max-width: 400px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.parrafo.aurora {
+  text-align: center;
+  border: 1px #000;
+  border-radius: 100px;
+  max-width: none;
+  margin-top: 52px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.parrafo.aurora.yosoy {
+  border-style: none;
+  border-radius: 100px;
+}
+
+.parrafo.hero-nosotros {
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo.texto, .parrafo.texto-copy {
+  color: var(--dim-grey);
+  text-align: left;
+  border-radius: 0;
+  max-width: none;
+  margin-top: 52px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.parrafo.texto-modal {
+  color: var(--dim-grey);
+  text-align: left;
+  border-radius: 0;
+  max-width: none;
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.parrafo.dark {
+  color: var(--dim-grey);
+  text-align: center;
+  margin-top: 6px;
+  padding-left: 19px;
+  padding-right: 19px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.parrafo.dark.izquierda {
+  text-align: center;
+  max-width: 309px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo.dark.hover {
+  color: var(--cadet-blue);
+  text-align: center;
+  max-width: 309px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo.dark.click {
+  color: var(--cadet-blue);
+  text-align: center;
+  max-width: 309px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.parrafo.dark.detalles {
+  text-align: left;
+  max-width: 750px;
+  margin-left: 36px;
+  margin-right: auto;
+}
+
+.parrafo.dark.detalles.li {
+  margin-left: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.parrafo.dark.equipo {
+  max-width: 200px;
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.parrafo.dark.left {
+  text-align: left;
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.parrafo.filosofia {
+  color: var(--dim-grey);
+  text-align: center;
+  max-width: 300px;
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.parrafo.filosofia.izquierda {
+  text-align: center;
+  max-width: 309px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo.filosofia.hover {
+  color: var(--cadet-blue);
+  text-align: center;
+  max-width: 309px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo.filosofia.click {
+  color: var(--cadet-blue);
+  text-align: center;
+  max-width: 309px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.parrafo.programa {
+  text-align: left;
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo.caracteristicas {
+  text-align: left;
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: auto;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 19px;
+  display: block;
+}
+
+.parrafo.metricas, .parrafo.metricas-copy {
+  text-align: left;
+  border: 1px #000;
+  border-radius: 0;
+  max-width: none;
+  margin-top: 0;
+  margin-left: 181px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.parrafo.fuente {
+  margin-top: 8px;
+  margin-left: 181px;
+  line-height: 16px;
+}
+
+.parrafo.hero-programas {
+  color: var(--dim-grey);
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.parrafo.clases {
+  text-align: left;
+  background-image: url('../images/AURORA-clases.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 35px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 19px;
+  display: block;
+}
+
+.parrafo.clases.dark {
+  line-height: 22px;
+}
+
+.parrafo.modalidad {
+  text-align: left;
+  background-image: url('../images/modalidad-virtual.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 35px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 19px;
+  display: block;
+}
+
+.parrafo.modalidad.dark {
+  line-height: 22px;
+}
+
+.parrafo.modalidad.dark.virtual-presencial {
+  background-image: url('../images/modalidad-hibrido.svg');
+}
+
+.parrafo.modalidad.dark.presencial, .parrafo.modalidad.presencial {
+  background-image: url('../images/AURORA-modalidad.svg');
+}
+
+.parrafo.modalidad.hibrido {
+  background-image: url('../images/modalidad-hibrido.svg');
+}
+
+.parrafo.curso {
+  text-align: left;
+  background-image: url('../images/AURORA-curso.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 35px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 19px;
+  display: block;
+}
+
+.parrafo.curso.dark {
+  line-height: 22px;
+}
+
+.parrafo.que-es {
+  text-align: left;
+  text-align: left;
+  background-image: url('../images/AURORA-que-es.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 90%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 35px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 19px;
+  display: block;
+}
+
+.parrafo.que-es.dark {
+  line-height: 22px;
+}
+
+.boton {
+  float: left;
+  border: 1px solid var(--indian-red);
+  background-color: var(--indian-red);
+  outline-color: var(--indian-red);
+  outline-offset: 0px;
+  text-align: left;
+  background-image: url('../images/AURORA-flecha-boton.svg');
+  background-position: 87%;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  border-radius: 20px;
+  outline-width: 1px;
+  outline-style: none;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  transition: background-position .2s;
+}
+
+.boton:hover {
+  border: 1px solid var(--indian-red);
+  background-position: 89%;
+}
+
+.boton.hueco {
+  outline-offset: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  border-color: #fff;
+  outline: 1px #fff;
+  margin-left: 14px;
+  padding-right: 15px;
+}
+
+.boton.hueco.conoce {
+  margin-left: 0;
+  margin-right: 14px;
+}
+
+.boton.centro {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.boton.centro.regresar {
+  background-image: none;
+  margin-bottom: 200px;
+  padding-right: 15px;
+}
+
+.boton.contacto {
+  padding: 12px 50px 12px 34px;
+}
+
+.boton.contactanos {
+  background-image: none;
+  padding-right: 15px;
+}
+
+.body {
+  background-color: var(--floral-white);
+}
+
+.h2 {
+  color: var(--dim-grey);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+.h2.ventajas, .h2.pasos {
+  color: var(--cadet-blue);
+  text-align: left;
+}
+
+.h2.somos {
+  margin-top: 17px;
+  font-size: 33px;
+}
+
+.h2.izq {
+  text-align: left;
+}
+
+.h2.izq.metodologia {
+  text-align: center;
+  margin-top: 26px;
+}
+
+.h2.filosofia {
+  margin-bottom: 16px;
+}
+
+.h2.proximamente {
+  color: var(--indian-red);
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 33px;
+}
+
+.h2.programas {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.parrafo2 {
+  color: var(--dim-grey);
+  text-align: left;
+  max-width: 287px;
+  font-family: Patrick Hand, sans-serif;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.parrafo2.b {
+  margin-left: 32px;
+}
+
+.parrafo2.llamado {
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.parrafo2.descripcion {
+  color: var(--dim-grey);
+  text-align: center;
+  max-width: none;
+  margin: 20px auto 16px;
+  font-size: 22px;
+}
+
+.parrafo2.descripcion.pilotos {
+  margin-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.parrafo2.descripcion.pilotos.blanco {
+  color: var(--floral-white);
+}
+
+.parrafo2.descripcion.left {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.parrafo2.apoyado {
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  margin-top: 0;
+  margin-bottom: 23px;
+  display: inline-block;
+}
+
+.parrafo2.metodologia {
+  text-align: center;
+  max-width: 288px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.parrafo2.habilidades {
+  color: var(--dim-grey);
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  margin-top: 0;
+  font-size: 26px;
+  line-height: 29px;
+  display: inline-block;
+}
+
+.parrafo2.referentes {
+  color: var(--cadet-blue);
+  text-align: center;
+  max-width: 202px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo2.filosofia {
+  text-align: center;
+  max-width: 295px;
+  margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.parrafo2.detalles {
+  color: #fff;
+  text-align: left;
+  max-width: none;
+  margin-top: 0;
+  margin-left: 31px;
+  margin-right: auto;
+}
+
+.parrafo2.beneficios {
+  text-align: center;
+  max-width: none;
+  margin-bottom: 35px;
+}
+
+.parrafo2.lista {
+  max-width: none;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.parrafo2.que-buscamos {
+  color: #fff;
+  text-align: left;
+  background-image: url('../images/AURORA-que-buscamos.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  max-width: none;
+  margin-top: 0;
+  margin-left: 31px;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+}
+
+.parrafo2.que-buscamos.dark {
+  color: var(--dim-grey);
+}
+
+.parrafo2.que-buscamos.dark.contagiando, .parrafo2.que-buscamos.dark.soy {
+  background-image: url('../images/que-buscamos-verde.svg');
+}
+
+.parrafo2.que-buscamos.dark.somos1 {
+  background-image: url('../images/que-buscamos-amarillo.svg');
+}
+
+.parrafo2.que-buscamos.soy {
+  background-image: url('../images/que-buscamos-azul.svg');
+}
+
+.parrafo2.buscamos {
+  max-width: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.parrafo2.somos2 {
+  color: #fff;
+  text-align: left;
+  background-image: url('../images/que-buscamos-gris.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  max-width: none;
+  margin-top: 0;
+  margin-left: 31px;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+}
+
+.parrafo2.somos2.dark {
+  color: var(--dim-grey);
+}
+
+.parrafo2.somos2.dark.contagiando, .parrafo2.somos2.dark.soy {
+  background-image: url('../images/que-buscamos-verde.svg');
+}
+
+.parrafo2.somos2.dark.somos1 {
+  background-image: url('../images/que-buscamos-amarillo.svg');
+}
+
+.parrafo2.somos2.soy {
+  background-image: url('../images/que-buscamos-azul.svg');
+}
+
+.li-paraque {
+  background-image: url('../images/AURORA-quebuscamos8.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 64px;
+}
+
+.li-paraque.a {
+  background-image: url('../images/AURORA-quebuscamos3_1.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 64px;
+}
+
+.li-paraque.b {
+  background-image: url('../images/AURORA-quebuscamos1.svg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-bottom: 0;
+  margin-left: 21px;
+}
+
+.li-paraque.c {
+  background-image: url('../images/AURORA-quebuscamos7.svg');
+  margin-left: 46px;
+}
+
+.li-paraque.d {
+  background-image: url('../images/quebuscamos5.svg');
+  margin-left: 50px;
+}
+
+.li-paraque.e {
+  background-image: url('../images/AURORA-quebuscamos6.svg');
+  margin-left: 26px;
+}
+
+.list-paraque {
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.image-2 {
+  width: 80px;
+  display: none;
+  position: absolute;
+  top: 760px;
+  left: 86px;
+}
+
+.div30 {
+  width: 30%;
+}
+
+.div70 {
+  float: right;
+  background-image: url('../images/AURORA-globo-azul.svg');
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 75%;
+  padding: 0 60px 35px;
+  line-height: 17px;
+  position: relative;
+}
+
+.image-3 {
+  position: absolute;
+  top: -6%;
+  bottom: auto;
+  left: -36%;
+  right: auto;
+}
+
+.container {
+  background-image: url('../images/AURORA-espiral.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 149px;
+}
+
+.div-33 {
+  float: none;
+  text-align: center;
+  width: 33%;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  display: inline-block;
+  position: relative;
+}
+
+.div-33.clientes._1 {
+  height: 100px;
+}
+
+.div-33.pilotos {
+  background-image: url('../images/AURORA-recuadro3.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 30%;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 15px;
+}
+
+.div-33.pilotos._2 {
+  background-image: url('../images/AURORA-recuadro2.svg');
+}
+
+.div-33.pilotos._3 {
+  background-image: url('../images/AURORA-recuadro4.svg');
+  background-size: 289px 156px;
+}
+
+.div-33.arriba {
+  width: 35%;
+}
+
+.div-33.programas {
+  border-bottom: 2px solid var(--light-coral);
+  background-image: url('../images/AURORA-recuadro2_1.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 11px;
+  width: 30%;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 21px 24px 32px;
+}
+
+.div-33.programas._2 {
+  background-image: url('../images/AURORA-recuadro2.svg');
+}
+
+.div-33.programas._3 {
+  background-image: url('../images/AURORA-recuadro4.svg');
+  background-size: 289px 156px;
+}
+
+.div-33.programas.contagiando {
+  border-bottom-color: var(--yellow-green);
+  background-image: url('../images/recuadro2-copia-3.svg');
+  background-size: cover;
+  width: 50%;
+}
+
+.div-33.programas.contagiando.largo {
+  border-right: 1px solid var(--yellow-green);
+  background-size: cover;
+}
+
+.div-33.programas.soy {
+  border-bottom-color: var(--cadet-blue);
+  background-image: url('../images/recuadro2-copia.svg');
+  background-size: cover;
+}
+
+.div-33.programas.soy.largo {
+  border-right: 1px solid var(--yellow-green);
+  background-size: auto 470px;
+}
+
+.div-33.programas.somos1 {
+  background-image: url('../images/recuadro2-copia-2.svg');
+  background-size: cover;
+  border-bottom-color: #efd350;
+}
+
+.div-33.programas.somos1.largo {
+  border-right: 1px solid var(--yellow-green);
+  background-size: auto 470px;
+}
+
+.div-33.programas.somos2 {
+  border-bottom-color: var(--dim-grey);
+  background-image: url('../images/recuadro2-copia-4.svg');
+}
+
+.image-4 {
+  display: none;
+  position: absolute;
+  top: -79px;
+  left: 202.188px;
+}
+
+.container-2 {
+  text-align: center;
+  position: relative;
+}
+
+.image-5 {
+  position: absolute;
+  top: -24%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.image-6 {
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 6%;
+}
+
+.div-logos {
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 91px;
+  display: flex;
+}
+
+.logo-psicometrix {
+  max-width: 90%;
+  margin: 21px 27px;
+}
+
+.logo-constelaciones {
+  max-width: 111%;
+  margin: 21px 27px;
+}
+
+.li-menu-footer {
+  display: inline-block;
+}
+
+.footer-link {
+  color: var(--dim-grey);
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.list-menu-footer {
+  justify-content: center;
+  display: flex;
+}
+
+.image-7 {
+  position: absolute;
+}
+
+.list-social-link {
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  display: flex;
+}
+
+.rrss {
+  width: 27px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.rrss.fb {
+  display: none;
+}
+
+.mail-link {
+  color: var(--dim-grey);
+  padding-top: 4px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.p-graycat {
+  color: #6d6e86;
+  text-align: right;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+}
+
+.link-5 {
+  color: var(--indian-red);
+}
+
+.brand.sticky.w--current, .brand.sticky-menu, .brand.sticky-menu.w--current {
+  display: none;
+}
+
+.link-block {
+  width: 100%;
+}
+
+.link-programa {
+  background-color: var(--alice-blue);
+  background-image: url('../images/AURORA-soy.png');
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 20px;
+  width: 90%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-programa.somos {
+  opacity: 1;
+  background-image: linear-gradient(rgba(228, 237, 242, .91), rgba(228, 237, 242, .91)), url('../images/AURORA-somos.png');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  border: 1px #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 80%;
+  height: 260px;
+  text-decoration: none;
+  display: flex;
+}
+
+.link-programa.soy {
+  box-shadow: 8px 8px 0 0 var(--light-coral);
+  width: 90%;
+  height: 300px;
+  max-height: 300px;
+  transform: translate(0);
+}
+
+.link-programa.soy:hover {
+  box-shadow: 4px 4px 0 0 var(--light-coral);
+  transform: translate(4px, 4px);
+}
+
+.div40 {
+  float: left;
+  text-align: center;
+  width: 40%;
+  height: auto;
+}
+
+.div60 {
+  float: left;
+  text-align: right;
+  width: 60%;
+  height: auto;
+  position: relative;
+}
+
+.img-metodologia {
+  text-align: right;
+  max-width: 85%;
+  margin-top: 58px;
+  position: static;
+}
+
+.hover-helper {
+  background-color: rgba(83, 100, 114, .47);
+  border-radius: 50px;
+  width: 120px;
+  height: 111px;
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.hover-helper.somos {
+  background-color: rgba(0, 0, 0, 0);
+  top: 3%;
+  right: 33%;
+}
+
+.hover-helper.hago {
+  background-color: rgba(0, 0, 0, 0);
+  top: 34%;
+  right: 3%;
+}
+
+.hover-helper.quiero {
+  background-color: rgba(0, 0, 0, 0);
+  top: auto;
+  bottom: 18px;
+  right: 32%;
+}
+
+.hover-helper.soy {
+  background-color: rgba(0, 0, 0, 0);
+  top: 34%;
+  left: 100px;
+  right: auto;
+}
+
+.modal {
+  background-color: var(--floral-white);
+  border-radius: 8px;
+  position: absolute;
+}
+
+.modal.soy {
+  background-color: var(--floral-white);
+  outline-offset: -2px;
+  background-image: url('../images/AURORA-contorno-soy.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  border: 1px #000;
+  border-radius: 10px;
+  outline: 1px #60c0be;
+  width: 183px;
+  height: auto;
+  padding: 14px;
+  top: 57%;
+  bottom: auto;
+  left: 12%;
+  right: auto;
+}
+
+.modal.somos {
+  background-color: var(--floral-white);
+  outline-color: var(--cadet-blue);
+  outline-offset: -2px;
+  background-image: url('../images/AURORA-contorno-quiero.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  border: 1px #000;
+  border-radius: 10px;
+  outline-width: 1px;
+  outline-style: none;
+  width: 183px;
+  height: auto;
+  padding: 14px;
+  top: 26%;
+  bottom: auto;
+  left: 42%;
+  right: auto;
+}
+
+.modal.hago {
+  background-color: var(--floral-white);
+  outline-offset: -2px;
+  background-image: url('../images/AURORA-contorno-hago.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  border: 1px #000;
+  border-radius: 10px;
+  outline: 1px #60c0be;
+  width: 183px;
+  height: auto;
+  padding: 14px;
+  top: 57%;
+  bottom: auto;
+  left: auto;
+  right: -19px;
+}
+
+.modal.quiero {
+  background-color: var(--floral-white);
+  outline-color: var(--cadet-blue);
+  outline-offset: -2px;
+  background-image: url('../images/AURORA-contorno-somos.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  border: 1px #000;
+  border-radius: 10px;
+  outline-width: 1px;
+  outline-style: none;
+  width: 183px;
+  height: auto;
+  padding: 14px;
+  top: 85%;
+  bottom: auto;
+  left: 42%;
+  right: auto;
+}
+
+.div25 {
+  float: left;
+  text-align: center;
+  width: 100%;
+  max-width: 25%;
+  margin-bottom: 20px;
+}
+
+.slide {
+  max-width: 971px;
+}
+
+.slider {
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: row;
+  justify-content: center;
+  max-width: 380px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.slide-nav {
+  display: none;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.right-arrow, .left-arrow {
+  width: 30px;
+  top: -143px;
+}
+
+.flechita {
+  color: var(--dim-grey);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.li-caracteristicas {
+  margin-bottom: 6px;
+  margin-right: 12px;
+  display: block;
+}
+
+.icono-caracteristicas {
+  float: left;
+  width: auto;
+  height: 22px;
+  margin-right: 5px;
+  display: block;
+}
+
+.slider-programa {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
+  margin-top: 36px;
+}
+
+.dropdown-toggle {
+  width: 100%;
+  display: block;
+}
+
+.dropdown-toggle._1 {
+  background-image: url('../images/AURORA-brochazo1.svg');
+  background-position: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+  margin-bottom: 22px;
+  margin-left: 0;
+  position: static;
+}
+
+.dropdown-toggle._2 {
+  background-image: url('../images/AURORA-brochazo2.svg');
+  background-position: 13px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+  margin-bottom: 22px;
+  margin-left: 0;
+}
+
+.dropdown-toggle._3 {
+  background-image: url('../images/AURORA-brochazo3.svg');
+  background-position: 6px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+  margin-bottom: 22px;
+  margin-left: 0;
+}
+
+.dropdown-toggle._4 {
+  background-image: url('../images/AURORA-brochazo4.svg');
+  background-position: 23px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+  margin-bottom: 22px;
+  margin-left: 0;
+}
+
+.dropdown-toggle._5 {
+  background-image: url('../images/AURORA-brochazo6.svg');
+  background-position: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+  margin-bottom: 22px;
+  margin-left: 0;
+  position: static;
+}
+
+.dropdown-toggle._6 {
+  background-image: url('../images/AURORA-brochazo5.svg');
+  background-position: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+  margin-bottom: 22px;
+  margin-left: 0;
+  position: static;
+}
+
+.dropdown {
+  display: block;
+  overflow: hidden;
+}
+
+.dropdown.hidden {
+  display: none;
+}
+
+.icon-2 {
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.dropdown-list {
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 10px;
+  display: block;
+  position: static;
+}
+
+.dropdown-list.w--open {
+  text-align: left;
+  margin-bottom: 52px;
+  display: block;
+  position: static;
+}
+
+.flecha-acordeon {
+  color: var(--medium-turquoise);
+  top: 29px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.flecha-acordeon.roja {
+  color: var(--indian-red);
+}
+
+.flecha-acordeon.naranja {
+  color: var(--light-coral);
+}
+
+.flecha-acordeon.azul {
+  color: var(--cadet-blue);
+}
+
+.flechita-2 {
+  color: var(--light-coral);
+  top: 29px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.flechita-3 {
+  color: var(--cadet-blue);
+  top: 29px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.flechita-4 {
+  color: var(--indian-red);
+  top: 29px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.nav-link-2 {
+  color: #fff;
+  margin-top: 9px;
+  margin-right: 21px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.nav-link-2.primero {
+  color: #fff;
+}
+
+.nav-link-2.highlight {
+  background-color: #c94d5b;
+  border-radius: 20px;
+  margin-left: 22px;
+  margin-right: 0;
+}
+
+.boton-2 {
+  float: left;
+  outline-offset: 0px;
+  text-align: left;
+  background-color: #c94d5b;
+  background-image: url('../images/AURORA-flecha-boton.svg');
+  background-position: 87%;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  border: 1px solid #c94d5b;
+  border-radius: 20px;
+  outline: 1px #c94d5b;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  transition: background-position .2s;
+}
+
+.boton-2:hover {
+  background-position: 89%;
+  border: 1px solid #c94d5b;
+}
+
+.boton-2.centro {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.boton-2.centro.programas {
+  margin-left: 30px;
+}
+
+.boton-2.centro.talleres {
+  margin-bottom: 100px;
+  margin-left: auto;
+}
+
+.col-contacto {
+  max-width: 500px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.form {
+  background-color: var(--floral-white);
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 45px auto 70px;
+  padding: 35px;
+}
+
+.boton-3 {
+  border-radius: 9px;
+  margin-bottom: 10px;
+  padding: 12px 42px;
+  font-family: Varela Round, sans-serif;
+  font-size: 16px;
+}
+
+.boton-3._2 {
+  float: left;
+  color: #fff;
+  background-color: #00a6cc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boton-3._2.submit {
+  float: none;
+}
+
+.input {
+  border-radius: 5px;
+  width: 99%;
+  height: 100px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.input._50 {
+  float: left;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #83d1de #83d1de var(--dim-grey);
+  color: #2c3e4f;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
+  width: 100%;
+  height: 53px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.input._50:focus {
+  border-color: #00a6cc;
+}
+
+.input._50.pais {
+  display: none;
+}
+
+.input.text {
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: black black var(--dim-grey);
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
+  height: 128px;
+  margin-left: 0;
+  padding-left: 0;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.p {
+  clear: left;
+  color: #6d6e86;
+  text-align: left;
+  padding-right: 15px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.p.black {
+  color: #2c3e4f;
+  margin-top: 30px;
+  padding-right: 18px;
+  font-weight: 500;
+}
+
+.p.black.contacto {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0 31px;
+  font-size: 16px;
+  display: none;
+}
+
+.p._16 {
+  margin-bottom: 38px;
+  padding-right: 83px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.p._16.center {
+  text-align: center;
+  padding-right: 0;
+  display: none;
+}
+
+.img-duende {
+  max-width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-pasos {
+  width: 150px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-9, .image-10 {
+  max-width: 90%;
+}
+
+.slide-2 {
+  background-image: url('../images/AURORA-soy.png'), linear-gradient(to bottom, var(--alice-blue), var(--alice-blue));
+  outline-offset: 0px;
+  background-position: 50%, 0 0;
+  background-size: cover, auto;
+  border: 1px #000;
+  outline: 3px #555;
+}
+
+.mask {
+  border-radius: 20px;
+}
+
+.slide-1 {
+  background-image: url('../images/fondo-10.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-3 {
+  background-image: url('../images/fondo-2.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-4 {
+  background-image: url('../images/fondo-1.png');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.slide-5 {
+  background-image: url('../images/fondo-3.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-6 {
+  background-image: url('../images/fondo-4.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-7 {
+  background-image: url('../images/fondo-6.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-8 {
+  background-image: url('../images/fondo-9.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-9 {
+  background-image: url('../images/fondo-8.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-10 {
+  background-image: url('../images/fondo-7.png');
+  background-position: 0%;
+  background-size: cover;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list.temario {
+  max-width: 750px;
+  margin-left: 36px;
+}
+
+.list-item {
+  border: 1px #000;
+}
+
+.li-temario {
+  border: 1px #000;
+  border-bottom: 1px solid rgba(83, 100, 114, .16);
+}
+
+.fuente {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.slider-metricas {
+  background-color: var(--cadet-blue);
+  border-radius: 20px;
+  max-width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-nav-2 {
+  z-index: 777;
+  text-align: right;
+  padding-top: 0;
+  font-size: 12px;
+  top: auto;
+  bottom: -3px;
+  left: auto;
+  right: 4%;
+}
+
+.slide1 {
+  background-color: var(--cadet-blue);
+  border-radius: 20px;
+  padding: 30px 80px;
+}
+
+.metricas-img {
+  float: left;
+  width: 150px;
+  position: static;
+}
+
+.icon-3, .icon-4 {
+  font-size: 20px;
+}
+
+.slide2, .slide3, .slide4 {
+  background-color: var(--cadet-blue);
+  border-radius: 20px;
+  padding: 30px 80px;
+}
+
+.brochazo-metricas {
+  z-index: 888;
+  max-width: 200px;
+  position: absolute;
+  top: -8px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.brochazo-metricas2 {
+  z-index: 555;
+  max-width: 500px;
+  position: absolute;
+  top: auto;
+  bottom: -4px;
+  left: auto;
+  right: -10px;
+}
+
+.slide-metricas {
+  background-color: var(--cadet-blue);
+  border-radius: 20px;
+  padding: 30px 80px;
+}
+
+.flechita-5 {
+  color: var(--medium-turquoise);
+  top: 29px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.flechita-6 {
+  color: var(--indian-red);
+  top: 29px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.image-12 {
+  margin-top: 12px;
+}
+
+.li-programas {
+  width: 300px;
+  max-width: none;
+  height: 120px;
+  margin: 50px 14px 36px;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.li-programas._2 {
+  background-image: url('../images/AURORA-programas2.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.li-programas._2:hover {
+  background-image: url('../images/AURORA-programas2-h.svg');
+}
+
+.li-programas._2.mobile {
+  display: none;
+}
+
+.li-programas._2.desktop {
+  background-image: url('../images/AURORA-programas2_1.svg');
+}
+
+.li-programas._2.desktop:hover {
+  background-image: url('../images/AURORA-programas2-h.svg');
+}
+
+.li-programas._3 {
+  background-image: url('../images/AURORA-programas3.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.li-programas._3:hover {
+  background-image: url('../images/AURORA-programas3-h.svg');
+}
+
+.li-programas._3.desktop {
+  background-image: url('../images/AURORA-programas3_1.svg');
+}
+
+.li-programas._3.desktop:hover {
+  background-image: url('../images/AURORA-programas3-h.svg');
+}
+
+.li-programas._4 {
+  background-image: url('../images/AURORA-programas4.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.li-programas._4:hover {
+  background-image: url('../images/AURORA-programas4-h.svg');
+}
+
+.li-programas._4.desktop {
+  background-image: url('../images/AURORA-programas4.svg');
+}
+
+.li-programas._4.desktop:hover {
+  background-image: url('../images/AURORA-programas4-h.svg');
+}
+
+.li-programas._4.mobile {
+  display: none;
+}
+
+.li-programas._5 {
+  background-image: url('../images/AURORA-programas5.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.li-programas._5:hover {
+  background-image: url('../images/AURORA-programas5-h.svg');
+}
+
+.li-programas._5.desktop {
+  background-image: url('../images/AURORA-programas5.svg');
+}
+
+.li-programas._5.desktop:hover {
+  background-image: url('../images/AURORA-programas5-h.svg');
+}
+
+.li-programas._1 {
+  background-image: url('../images/AURORA-programas1.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  transition: all .2s;
+}
+
+.li-programas._1:hover {
+  background-image: url('../images/AURORA-programas1-h.svg');
+}
+
+.lista-nuestros-programas {
+  text-align: center;
+  background-image: url('../images/AURORA-programas-linea.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  max-width: 1000px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+.lista-pilotos {
+  text-align: center;
+  padding-left: 0;
+}
+
+.lista-clientes {
+  background-image: url('../images/AURORA-recuadro1.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-clientes {
+  width: 252px;
+  max-width: none;
+  margin-top: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-pasos-copy {
+  width: 252px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.porcentaje {
+  font-size: 35px;
+}
+
+.img-ventajas {
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-banderas {
+  width: 100px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pleca-2 {
+  margin-top: 71px;
+  margin-bottom: 84px;
+}
+
+.text-span {
+  font-size: 22px;
+  line-height: 0;
+}
+
+.lista-programas {
+  text-align: center;
+  border-bottom: 1px #efd350;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  display: flex;
+}
+
+.lista-programas.talleres {
+  margin-bottom: 0;
+}
+
+.img-programas {
+  float: none;
+  max-width: 50px;
+  display: block;
+}
+
+.link-programas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.dropdown-list-2 {
+  background-color: var(--floral-white);
+}
+
+.dropdown-list-2.w--open {
+  border-radius: 16px;
+  padding-top: 0;
+  padding-bottom: 9px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, .2);
+}
+
+.dropdown-2 {
+  border-radius: 0;
+}
+
+.dropdown-2.dark {
+  -webkit-text-stroke-color: var(--dim-grey);
+}
+
+.link-6 {
+  color: var(--cadet-blue);
+  -webkit-text-stroke-color: var(--cadet-blue);
+  text-decoration: none;
+}
+
+.link-6.dark {
+  color: var(--dim-grey);
+}
+
+.link-7 {
+  color: var(--floral-white);
+  text-decoration: none;
+}
+
+.link-7.w--current, .link-7.dark, .dropdown-dark {
+  color: var(--dim-grey);
+}
+
+.div-contenedor-flex-hero {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  display: flex;
+}
+
+.dropdown-list-estudiantes {
+  background-color: var(--floral-white);
+}
+
+.dropdown-list-estudiantes.w--open {
+  border-radius: 16px;
+  padding-top: 0;
+  padding-bottom: 9px;
+  top: 0;
+  left: 119px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, .2);
+}
+
+.dropdown-list-docentes {
+  background-color: var(--floral-white);
+}
+
+.dropdown-list-docentes.w--open {
+  border-radius: 16px;
+  padding-top: 0;
+  padding-bottom: 9px;
+  top: 0;
+  left: 119px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 991px) {
+  .section.programa, .section.hero-nosotros, .section.contacto, .section.gracias, .section.hero-programas, .section.talleres {
+    padding-bottom: 276px;
+  }
+
+  .navbar.sticky {
+    display: block;
+  }
+
+  .image.sticky {
+    display: none;
+  }
+
+  .nav-link {
+    color: var(--cadet-blue);
+  }
+
+  .parrafo.dark.hover {
+    display: none;
+  }
+
+  .parrafo.dark.click {
+    display: block;
+  }
+
+  .parrafo.filosofia.hover {
+    display: none;
+  }
+
+  .parrafo.filosofia.click {
+    display: block;
+  }
+
+  .boton.centro.regresar {
+    margin-bottom: 50px;
+  }
+
+  .modal.quiero {
+    z-index: 888;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section.hero {
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 0;
+    padding-bottom: 46px;
+  }
+
+  .section.paraque {
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .section.soyaurora {
+    background-size: 90px, contain;
+    padding-bottom: 48px;
+  }
+
+  .section.pasos {
+    background-position: 50% 100%;
+    background-size: contain;
+    padding-bottom: 59px;
+  }
+
+  .section.llamado {
+    background-size: 150px, auto;
+    padding-bottom: 123px;
+  }
+
+  .section.footer {
+    padding-bottom: 50px;
+  }
+
+  .section.programa {
+    background-image: url('../images/AURORA-fondo-programa.svg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .section.programa.contagiando, .section.programa.soy, .section.programa.somos2 {
+    background-image: url('../images/AURORA-fondo-programa.svg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .section.equipo {
+    padding-bottom: 111px;
+  }
+
+  .section.referentes {
+    background-position: 50% 100%;
+    background-size: contain;
+    padding-bottom: 59px;
+  }
+
+  .section.filosofia {
+    padding-bottom: 66px;
+  }
+
+  .section.detalles {
+    background-image: url('../images/AURORA-fondo-footer-azul.svg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 39px;
+    padding-bottom: 59px;
+  }
+
+  .section.hero-nosotros {
+    background-image: url('../images/AURORA-nosotros-izquierda.png'), url('../images/AURORA-nosotros-derecha.png'), url('../images/AURORA-fondo-nosotros.svg');
+    background-position: 6% 100%, 103% 100%, 50% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 218px, 292px, contain;
+    padding-top: 0;
+    padding-bottom: 252px;
+  }
+
+  .section.contacto {
+    background-image: url('../images/AURORA-fondo-footer-verde.svg'), url('../images/AURORA-fondo-programa-nubes.svg');
+    background-position: 50% 100%, 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, auto;
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .section.metricas {
+    padding-bottom: 0;
+  }
+
+  .section.gracias {
+    background-image: url('../images/AURORA-fondo-footer-verde.svg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .section.hero-programas {
+    background-image: url('../images/AURORA-fondo-programas.svg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 83px;
+  }
+
+  .section.equipo-copy {
+    padding-bottom: 111px;
+  }
+
+  .section.brochazo {
+    padding-bottom: 67px;
+  }
+
+  .section.futuro {
+    padding-bottom: 66px;
+  }
+
+  .section.talleres {
+    background-image: url('../images/AURORA-fondo-footer-verde.svg'), url('../images/AURORA-fondo-programa-nubes.svg');
+    background-position: 50% 100%, 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, auto;
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .contenedor.paraque {
+    margin-bottom: 1px;
+  }
+
+  .contenedor.pasos {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 50px;
+  }
+
+  .contenedor.footer {
+    padding-top: 35px;
+  }
+
+  .contenedor.productos {
+    padding-top: 33px;
+  }
+
+  .contenedor.metodologia {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+
+  .contenedor.referentes {
+    padding-top: 70px;
+    padding-bottom: 73px;
+  }
+
+  .contenedor.filosofia {
+    background-position: 43% -50px;
+    background-size: 700px;
+    padding-top: 45px;
+    padding-bottom: 38px;
+  }
+
+  .contenedor.metricos {
+    margin-top: 0;
+    margin-bottom: 63px;
+  }
+
+  .contenedor.hero-gracias {
+    margin-top: 100px;
+  }
+
+  .contenedor.banderas {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 18px;
+  }
+
+  .navbar {
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin-bottom: 0;
+    position: static;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+
+  .navbar.sticky {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+  }
+
+  .image {
+    width: 150px;
+    margin-top: 11px;
+    margin-left: 0;
+  }
+
+  .image.sticky {
+    margin-left: 23px;
+    display: block;
+  }
+
+  .nav-link {
+    color: var(--cadet-blue);
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 0;
+    margin-right: 0;
+    position: static;
+  }
+
+  .nav-link.highlight {
+    color: var(--floral-white);
+    margin-left: 35px;
+    margin-right: 35px;
+    display: block;
+  }
+
+  .nav-link.sticky {
+    margin-right: 0;
+  }
+
+  .nav-link.primero {
+    color: var(--cadet-blue);
+    margin-top: 80px;
+    margin-right: 0;
+  }
+
+  .nav-link.primero.sticky {
+    color: var(--cadet-blue);
+    margin-right: 0;
+  }
+
+  .nav-link.plataforma {
+    color: var(--floral-white);
+    margin-left: 35px;
+    margin-right: 35px;
+    display: block;
+  }
+
+  .nav-link.plataforma.hollow {
+    background-color: var(--cadet-blue);
+    color: var(--floral-white);
+  }
+
+  .nav-link.azul {
+    color: var(--cadet-blue);
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .div50 {
+    clear: none;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .div50.hero {
+    margin-bottom: 40px;
+  }
+
+  .div50.programa.proximamente {
+    margin-top: 25px;
+  }
+
+  .heading.cta {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .parrafo {
+    max-width: 100%;
+  }
+
+  .parrafo.aurora {
+    background-color: var(--cadet-blue);
+    border-radius: 20px;
+    margin-top: 24px;
+    padding: 30px;
+  }
+
+  .parrafo.texto {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    margin-top: 24px;
+    padding: 0;
+  }
+
+  .parrafo.texto-copy {
+    background-color: var(--cadet-blue);
+    border-radius: 20px;
+    margin-top: 24px;
+    padding: 30px;
+  }
+
+  .parrafo.texto-modal {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .parrafo.dark.click {
+    display: none;
+  }
+
+  .parrafo.metricas, .parrafo.metricas-copy {
+    background-color: var(--cadet-blue);
+    border-radius: 20px;
+    margin-top: 24px;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .parrafo.fuente {
+    margin-left: 0;
+  }
+
+  .boton.centro.regresar {
+    margin-bottom: 100px;
+  }
+
+  .h2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .h2.yosoy {
+    max-width: 100px;
+    margin-bottom: 0;
+  }
+
+  .h2.izq.metodologia {
+    margin-top: 0;
+  }
+
+  .h2.filosofia {
+    margin-top: -2px;
+  }
+
+  .parrafo2.llamado {
+    margin-top: 20px;
+  }
+
+  .parrafo2.metodologia {
+    max-width: 272px;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .parrafo2.habilidades {
+    margin-top: 20px;
+  }
+
+  .parrafo2.filosofia {
+    max-width: 272px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .parrafo2.que-buscamos {
+    margin-left: 0;
+  }
+
+  .parrafo2.buscamos {
+    padding-left: 0;
+  }
+
+  .parrafo2.somos2 {
+    margin-left: 0;
+  }
+
+  .li-paraque {
+    display: inline-block;
+  }
+
+  .li-paraque.a {
+    padding-left: 64px;
+    display: inline-block;
+  }
+
+  .li-paraque.b {
+    margin-left: 0;
+    display: inline-block;
+  }
+
+  .li-paraque.c {
+    margin-left: 0;
+  }
+
+  .li-paraque.d {
+    background-image: url('../images/AURORA-quebuscamos3.svg');
+    margin-left: 0;
+  }
+
+  .li-paraque.e {
+    margin-left: 0;
+  }
+
+  .list-paraque {
+    margin-bottom: 35px;
+    padding-left: 0;
+  }
+
+  .image-2 {
+    display: none;
+  }
+
+  .div70 {
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .image-3 {
+    width: 120px;
+    top: -10%;
+    bottom: 0%;
+    left: 11%;
+    right: auto;
+  }
+
+  .div-33 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .div-33.clientes._1 {
+    margin-bottom: 0;
+  }
+
+  .div-33.pilotos {
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 19px;
+  }
+
+  .div-33.pilotos._3 {
+    background-size: cover;
+  }
+
+  .div-33.arriba, .div-33.programas {
+    width: 100%;
+  }
+
+  .image-4 {
+    top: -10%;
+    bottom: auto;
+    left: auto;
+    right: 3%;
+  }
+
+  .div-logos {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 56px;
+  }
+
+  .logo-psicometrix {
+    clear: right;
+  }
+
+  .li-menu-footer {
+    text-align: center;
+    flex: 1;
+    width: 100%;
+    display: block;
+  }
+
+  .footer-link {
+    text-align: center;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .list-menu-footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 61px;
+    display: flex;
+  }
+
+  .list-social-link {
+    flex-direction: column;
+  }
+
+  .rrss {
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p-graycat {
+    text-align: center;
+  }
+
+  .icon {
+    color: #fff;
+  }
+
+  .icon.sticky {
+    color: var(--cadet-blue);
+  }
+
+  .brand {
+    padding-left: 0;
+  }
+
+  .brand.w--current {
+    margin-left: 0;
+    padding-bottom: 11px;
+    padding-left: 0;
+    position: static;
+  }
+
+  .brand.sticky.w--current, .brand.sticky-menu, .brand.sticky-menu.w--current {
+    display: block;
+  }
+
+  .nav-menu {
+    z-index: 0;
+    background-color: var(--floral-white);
+    color: var(--cadet-blue);
+    margin-top: 0;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+
+  .menu-button, .menu-button.w--open {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .menu-button-2, .menu-button-2.w--open {
+    background-color: var(--floral-white);
+  }
+
+  .nav-menu-2 {
+    background-color: var(--floral-white);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+
+  .link-programa.somos {
+    width: 90%;
+    height: 300px;
+  }
+
+  .div40 {
+    clear: none;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .div40.hero {
+    margin-bottom: 40px;
+  }
+
+  .div60 {
+    clear: none;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .div60.hero {
+    margin-bottom: 40px;
+  }
+
+  .img-metodologia {
+    max-width: 100%;
+  }
+
+  .hover-helper.somos {
+    right: 40%;
+  }
+
+  .hover-helper.quiero {
+    right: 38%;
+  }
+
+  .hover-helper.soy {
+    left: 18px;
+  }
+
+  .modal.soy {
+    left: -2%;
+  }
+
+  .modal.somos {
+    left: 33%;
+  }
+
+  .modal.hago {
+    right: -12px;
+  }
+
+  .modal.quiero {
+    left: 33%;
+  }
+
+  .div25 {
+    max-width: 100%;
+  }
+
+  .slide {
+    max-width: 932px;
+  }
+
+  .slider {
+    max-width: 349px;
+  }
+
+  .nav-link-2 {
+    color: #5da6bc;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 0;
+    margin-right: 0;
+    position: static;
+  }
+
+  .nav-link-2.primero {
+    margin-top: 80px;
+  }
+
+  .nav-link-2.highlight {
+    color: #fffcf5;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: block;
+  }
+
+  .boton-2.centro {
+    margin-left: auto;
+  }
+
+  .nav-menu-3 {
+    z-index: 0;
+    background-color: #fffcf5;
+    margin-top: 0;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+
+  .input._50 {
+    width: 99%;
+  }
+
+  .p._16 {
+    padding-right: 0;
+  }
+
+  .fuente {
+    margin-left: 0;
+  }
+
+  .slider-metricas {
+    margin-bottom: 34px;
+  }
+
+  .metricas-img {
+    float: none;
+  }
+
+  .icon-3 {
+    margin-left: 40px;
+    font-size: 16px;
+  }
+
+  .icon-4 {
+    margin-right: 40px;
+    font-size: 16px;
+  }
+
+  .slide3 {
+    padding-bottom: 49px;
+  }
+
+  .brochazo-metricas2 {
+    display: none;
+    bottom: 0;
+  }
+
+  .slide-metricas {
+    padding-bottom: 49px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+  .image-11 {
+    display: block;
+  }
+
+  .li-programas._2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .li-programas._2.mobile {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+
+  .li-programas._2.desktop {
+    display: none;
+  }
+
+  .li-programas._3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .li-programas._3.desktop {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .li-programas._4 {
+    margin-top: 10px;
+  }
+
+  .li-programas._4.desktop {
+    display: none;
+  }
+
+  .li-programas._4.mobile {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+
+  .li-programas._5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .li-programas._5.desktop {
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .li-programas._1 {
+    margin: 10px auto;
+  }
+
+  .lista-nuestros-programas {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .lista-clientes {
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 22px;
+    padding-left: 0;
+  }
+
+  .pleca-2 {
+    display: block;
+  }
+
+  .lista-programas {
+    flex-direction: column;
+  }
+
+  .img-programas-cover {
+    margin-top: 26px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section.programa {
+    background-position: 50% 100%, 50%;
+    background-size: contain, contain;
+    padding-bottom: 61px;
+  }
+
+  .section.equipo {
+    padding-bottom: 80px;
+  }
+
+  .section.filosofia {
+    padding-bottom: 65px;
+  }
+
+  .section.detalles {
+    background-position: 50% 100%;
+  }
+
+  .section.hero-nosotros {
+    background-image: url('../images/AURORA-nosotros-izquierda.png'), url('../images/AURORA-nosotros-derecha.png'), url('../images/AURORA-fondo-nosotros.svg');
+    background-position: 6% 100%, 103% 100%, 50% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 138px, 182px, contain;
+    padding-bottom: 162px;
+  }
+
+  .section.contacto, .section.gracias {
+    background-position: 50% 100%, 50%;
+    background-size: contain, contain;
+    padding-bottom: 61px;
+  }
+
+  .section.hero-programas {
+    background-position: 50% 100%;
+    background-size: cover;
+    min-height: auto;
+    padding-bottom: 90px;
+  }
+
+  .section.equipo-copy {
+    padding-bottom: 105px;
+  }
+
+  .section.brochazo {
+    padding-bottom: 41px;
+  }
+
+  .section.futuro {
+    padding-bottom: 56px;
+  }
+
+  .section.talleres {
+    background-image: url('../images/AURORA-fondo-footer-azul.svg'), url('../images/AURORA-fondo-programa-nubes.svg');
+    background-position: 50% 100%, 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, auto;
+    padding-bottom: 61px;
+  }
+
+  .contenedor.pasos {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 63px;
+  }
+
+  .contenedor.metodologia {
+    margin-top: 0;
+  }
+
+  .contenedor.referentes {
+    padding-top: 19px;
+  }
+
+  .contenedor.filosofia {
+    background-position: 45% 1%;
+    background-size: 580px;
+    margin-top: -59px;
+    padding-bottom: 52px;
+  }
+
+  .contenedor.detalles {
+    text-align: left;
+    padding-right: 15px;
+  }
+
+  .contenedor.banderas {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 0;
+  }
+
+  .contenedor.talleres {
+    background-image: none;
+  }
+
+  .navbar.sticky {
+    display: block;
+  }
+
+  .nav-link {
+    margin-top: 19px;
+    margin-bottom: 0;
+    padding-right: 20px;
+  }
+
+  .nav-link.highlight.demo.primero {
+    color: var(--color);
+    margin-right: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  }
+
+  .nav-link.sticky {
+    color: var(--cadet-blue);
+    text-align: center;
+    padding-right: 20px;
+    display: block;
+  }
+
+  .nav-link.primero {
+    margin-bottom: 0;
+  }
+
+  .nav-link.primero.sticky, .nav-link.primero.sticky.w--current {
+    color: var(--cadet-blue);
+  }
+
+  .nav-link.plataforma.hollow.dark {
+    color: var(--color);
+    border-style: none;
+  }
+
+  .nav-link.dark {
+    padding-right: 20px;
+  }
+
+  .div50.hero {
+    text-align: center;
+    flex-flow: column;
+    display: block;
+  }
+
+  .heading.cta {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .heading.hero-nosotros {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  .heading.home {
+    margin-right: 0;
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  .heading.hero-talleres {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  .heading.taller {
+    font-size: 20px;
+    line-height: 42px;
+  }
+
+  .parrafo.dark.click {
+    display: none;
+  }
+
+  .parrafo.dark.detalles {
+    margin-left: 5px;
+    padding-right: 15px;
+  }
+
+  .parrafo.dark.left, .parrafo.hero-programas {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .h2 {
+    object-fit: fill;
+    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .h2.filosofia {
+    margin-top: 16px;
+    margin-bottom: 5px;
+    font-size: 38px;
+  }
+
+  .parrafo2.metodologia {
+    max-width: 245px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .parrafo2.filosofia {
+    max-width: 230px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .parrafo2.detalles {
+    white-space: normal;
+    display: inline-block;
+  }
+
+  .parrafo2.que-buscamos, .parrafo2.somos2 {
+    white-space: normal;
+    padding-right: 41px;
+    display: inline-block;
+  }
+
+  .li-paraque {
+    padding-left: 64px;
+  }
+
+  .li-paraque.a {
+    text-align: left;
+    background-size: 50px;
+    margin-left: 0;
+  }
+
+  .li-paraque.b {
+    background-size: 50px;
+    margin-left: 0;
+    padding-left: 64px;
+  }
+
+  .li-paraque.c, .li-paraque.d, .li-paraque.e, .li-paraque.f {
+    background-size: 50px;
+  }
+
+  .list-paraque {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .image-3 {
+    left: -5%;
+  }
+
+  .div-33 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .div-33.clientes._1 {
+    width: 100%;
+  }
+
+  .div-33.pilotos {
+    margin-left: 0;
+  }
+
+  .div-33.arriba {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .div-33.referentes {
+    width: 100%;
+  }
+
+  .div-33.programas {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .div-logos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    color: #576371;
+  }
+
+  .brand.sticky-menu, .nav-menu {
+    display: block;
+  }
+
+  .link-programa.somos {
+    width: 90%;
+    height: 200px;
+  }
+
+  .link-programa.soy {
+    height: 200px;
+  }
+
+  .img-metodologia {
+    margin-top: 28px;
+  }
+
+  .hover-helper.somos {
+    width: 85px;
+    height: 85px;
+    top: 0%;
+    right: 37%;
+  }
+
+  .hover-helper.hago {
+    width: 85px;
+    height: 85px;
+    top: 30%;
+    right: 0%;
+  }
+
+  .hover-helper.quiero {
+    width: 85px;
+    height: 85px;
+    bottom: 3px;
+    right: 35%;
+  }
+
+  .hover-helper.soy {
+    width: 85px;
+    height: 85px;
+    top: 30%;
+    left: 2px;
+  }
+
+  .modal.soy {
+    display: block;
+    left: 0%;
+  }
+
+  .modal.somos {
+    display: block;
+    top: 26%;
+    bottom: auto;
+    left: 23%;
+    right: auto;
+  }
+
+  .modal.hago {
+    display: block;
+    right: 0;
+  }
+
+  .modal.quiero {
+    display: block;
+    top: 88%;
+    left: 24%;
+  }
+
+  .div25 {
+    margin-top: 20px;
+  }
+
+  .flechita {
+    font-size: 18px;
+  }
+
+  .slider-programa {
+    z-index: 1;
+    position: relative;
+  }
+
+  .dropdown-toggle._1 {
+    background-position: 10px;
+    background-size: cover;
+  }
+
+  .dropdown-toggle._2 {
+    background-position: 0 44%;
+    background-size: cover;
+  }
+
+  .dropdown-toggle._3 {
+    background-position: -4px;
+    background-size: cover;
+  }
+
+  .dropdown-toggle._4 {
+    background-position: 15px;
+    background-size: cover;
+  }
+
+  .dropdown-toggle._5, .dropdown-toggle._6 {
+    background-position: 10px;
+    background-size: cover;
+  }
+
+  .nav-link-2 {
+    margin-top: 19px;
+    margin-bottom: 0;
+  }
+
+  .nav-link-2.primero, .boton-2.centro.talleres {
+    margin-bottom: 0;
+  }
+
+  .p._16.center {
+    padding-right: 0;
+  }
+
+  .slide-nav-2 {
+    font-size: 10px;
+    bottom: 0;
+  }
+
+  .icon-3 {
+    margin-left: 50px;
+    font-size: 14px;
+  }
+
+  .icon-4 {
+    margin-right: 50px;
+    font-size: 14px;
+  }
+
+  .slide3 {
+    padding-left: 41px;
+    padding-right: 41px;
+  }
+
+  .brochazo-metricas2 {
+    display: none;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .mask-2 {
+    height: auto;
+  }
+
+  .slide-metricas {
+    padding-left: 41px;
+    padding-right: 41px;
+  }
+
+  .li-programas._2.mobile {
+    background-image: url('../images/AURORA-programas2_1.svg');
+  }
+
+  .li-programas._2.mobile:hover {
+    background-image: url('../images/AURORA-programas2-h.svg');
+  }
+
+  .li-programas._4.mobile {
+    background-image: url('../images/AURORA-programas4_1.svg');
+  }
+
+  .li-programas._4.mobile:hover {
+    background-image: url('../images/AURORA-programas4-h.svg');
+  }
+
+  .li-programas._1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lista-nuestros-programas {
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .lista-clientes {
+    padding-top: 16px;
+  }
+
+  .img-clientes {
+    margin-top: 19px;
+  }
+
+  .dropdown-2 {
+    position: relative;
+  }
+
+  .link-7 {
+    color: var(--cadet-blue);
+  }
+
+  .div-contenedor-flex-hero {
+    height: auto;
+    display: block;
+  }
+
+  .botones {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .dropdown-list-docentes.w--open {
+    top: 48px;
+    left: 0;
+  }
+}
+
+
