@@ -1418,7 +1418,8 @@
 .parrafo2.beneficios {
   text-align: center;
   max-width: none;
-  margin-bottom: 35px;
+  max-width: 80%;
+  margin: 0 auto 35px;
 }
 
 .parrafo2.lista {
