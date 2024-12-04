@@ -338,9 +338,9 @@
   margin-bottom: 55px;
 }
 
-.contenedor.aurora {
+/*.contenedor.aurora {
   max-width: 700px;
-}
+}*/
 
 .contenedor.pasos {
   text-align: center;
@@ -422,7 +422,7 @@
 }
 
 .contenedor.metricos {
-  margin-top: 81px;
+  margin-top: 0;
   margin-bottom: 32px;
 }
 
@@ -782,6 +782,10 @@
 .parrafo.aurora.yosoy {
   border-style: none;
   border-radius: 100px;
+}
+.h2.yosoy {
+  font-size: 2.2rem;
+  line-height: 1;
 }
 
 .parrafo.hero-nosotros {
@@ -1314,6 +1318,9 @@
   font-size: 24px;
   line-height: 27px;
 }
+.parrafo2.w-100 {
+  max-width: 100%;
+}
 
 .parrafo2.b {
   margin-left: 32px;
@@ -1570,7 +1577,7 @@
 
 .div70 {
   float: right;
-  background-image: url('../images/AURORA-globo-azul.svg');
+/*  background-image: url('../images/AURORA-globo-azul.svg');*/
   background-position: 50% 90%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2578,7 +2585,8 @@
   line-height: 1.2;
   font-weight: 100;
 }
-.item-programas small {
+.item-programas small,
+.d-block {
   display: block;
 }
 
@@ -2750,6 +2758,7 @@
 
 .porcentaje {
   font-size: 35px;
+  line-height: 1.2;
 }
 
 .img-ventajas {
@@ -3472,7 +3481,7 @@
   }
 
   .contenedor.metricos {
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 63px;
   }
 
@@ -3640,8 +3649,12 @@
   }
 
   .h2.yosoy {
-    max-width: 100px;
-    margin-bottom: 0;
+    max-width: 70%;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .h2.izq.metodologia {
